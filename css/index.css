@@ -1,0 +1,18 @@
+.box{
+  height:60px;
+   width:400px;
+   margin-left:auto;
+	border:1px solid white;
+    text-align: center;
+
+}
+
+.bog{
+width:300px;
+height:500px;
+margin-left:400px;;
+}
+
+body{
+background:#d3d3d3;
+}
