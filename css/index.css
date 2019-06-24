@@ -1,10 +1,11 @@
 
+/* Header Elements */
 #header{
   width:100%;
   position:fixed;
   background-color: black;
   padding:0px;
-  height: 160px;
+  height: 140px;
   text-align:center;
   margin: 0px 0px 0px 0px;
 }
@@ -14,54 +15,91 @@
     vertical-align:middle;
  }
  #header img {
-  float: left;
-  
+  float: left;  
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 0px;
  }
 #header nav{
-    
-   padding:0px;
+    padding:0px;
+    font-size:20px;
+    float: right;
     display:inline;
-    text-align: center;
  }
- .bacc{
+
+.bacc{
      margin-top: 1px;
-     margin-right: 45px;
-    
+     margin-right: 45px;    
     padding: 60px;
 }
 
-li{
+#header li{
     
-    display:inline;
-        
-       
-        margin-right:20px;
-    
-        color: #46d678;
-       
-        
+    display:inline;       
+    margin-right:20px;
+    color: yellow;
+             
 }
 
-li a:hover{
-    color:yellow;
+#header li a:hover{
+    color:white;
     text-decoration:none;
     font-size:30px;
 }
 
-li a{
+#header li a{
   
-    color:#46d678;
+    color:yellow;
     text-decoration:none;
     font-size:20px;
 }
 
-.pagehed {
-  margin-top: 170px;
-    text-align: center;   
+.dropbtn {
+    background-color: yellowgreen;
+    border-radius:20px;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+  
+.dropdown {
     position: relative;
-    padding: 40px 0px;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: red;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(196, 48, 48, 0.2);
+    z-index: 1;
+    
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: black;}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover .dropbtn {background-color: #0015a5;}
+
+/*--------------------------------- */
+
+/* For Hero Section*/
+
+
+.pagehed{
+  margin-top: 150px;
+      
+    
+    padding:30px 20px;
         background-color: #252831;
         color:#cacb63;
         
@@ -80,27 +118,31 @@ li a{
 }
 .pagehed a{
 
-        color:yellow;
-        
+        color:yellow;        
         padding:5px;
         text-decoration: none;
         font-family: Georgia, 'Times New Roman', Times, serif;
         margin-right: 5px;
 }
-        
+/* -------------------------------- */    
+
+/* for dividing rows and columns */
 .divisec{
     color:yellow;
-        background-color:black;
+        background-image:linear-gradient(white,yellow);
         padding:5px;
         width:40%;
         height:65%;
+        
 }
 .divisec a:hover{
    padding:5px;
    width:25%;
-}
-
-.articles{
+   opacity:0.8;
+   transition:3s;
+     }
+/* Making 3 rows */
+.col-3{
     color:white;
     padding:25px;
     background-color:green;
@@ -110,12 +152,36 @@ li a{
     float:right;
     margin-bottom: 2px;
     margin-left: 0px;
+    margin-right: 5px;
 }
 
-.articles img{
+.col-3 img{
     width:30%;
     height:80%;
 }
+
+/* --------------------------------------- */
+
+/* For Content Purpose */
+.content{        
+    background-color: green; 
+   background-image: linear-gradient(rgba(50, 109, 156, 0.74), green);
+   border:2px;
+   height:18%;
+   width:50%;
+   margin-top:30px;
+   margin-bottom: 3px; 
+   padding: 50px;
+}
+
+.content img{
+    float:right;
+    
+}
+
+/* ------------------------------ */
+
+/* Article Section */
 
 
 
@@ -126,7 +192,7 @@ li a{
     border-style: solid;
     width:100%;
     height:600px;
-    margin-top:40px;
+    margin-top:60px;
 }
 
 input[type=text], select {
@@ -167,52 +233,9 @@ textarea {
 }
 
 
-.contact{        
-         background-color: green; 
-        background-image: linear-gradient(rgba(50, 109, 156, 0.74), green);
-        border:2px solid black;
-        height:40%;
-        width:50%;
-        margin-top:390px;
-        margin-bottom: 3px; 
-        padding: 100px;
-}
+
         
 
-.dropbtn {
-          background-color: #acabae;
-          color: white;
-          padding: 16px;
-          font-size: 16px;
-          border: none;
-}
-        
-.dropdown {
-          position: relative;
-          display: inline-block;
- }
-        
-.dropdown-content {
-          display: none;
-          position: absolute;
-          background-color: #f1f1f1;
-          min-width: 100px;
-          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-          z-index: 1;
- }
-        
-.dropdown-content a {
-          color: black;
-          padding: 12px 16px;
-          text-decoration: none;
-          display: block;
-}
-        
-.dropdown-content a:hover {background-color: #ddd;}
-        
-.dropdown:hover .dropdown-content {display: block;}
-        
-.dropdown:hover .dropbtn {background-color: #0015a5;}
 
 
 
