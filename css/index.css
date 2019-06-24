@@ -35,7 +35,7 @@
 li{
     
     display:inline;
-        word-spacing: none;
+        
        
         margin-right:20px;
     
@@ -58,16 +58,17 @@ li a{
 }
 
 .pagehed {
-  margin-top: 200px;
+  margin-top: 170px;
     text-align: center;   
     position: relative;
     padding: 40px 0px;
         background-color: #252831;
         color:#cacb63;
         
-        font-size: 30px;
+        font-size: 20px;
 
 }
+
 
 .pagehed a:hover{
 
@@ -80,7 +81,7 @@ li a{
 .pagehed a{
 
         color:yellow;
-        background-color:none;
+        
         padding:5px;
         text-decoration: none;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -99,7 +100,7 @@ li a{
    width:25%;
 }
 
-#article{
+.articles{
     color:white;
     padding:25px;
     background-color:green;
@@ -108,9 +109,10 @@ li a{
     height:10%;
     float:right;
     margin-bottom: 2px;
+    margin-left: 0px;
 }
 
-#article img{
+.articles img{
     width:30%;
     height:80%;
 }
